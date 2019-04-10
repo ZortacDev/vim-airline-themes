@@ -1,21 +1,21 @@
 " Normal mode
 " (Dark)
-let s:N1 = [ '#212733' , '#BBE67E' , 0   , 114 ] " guifg guibg ctermfg ctermbg
-let s:N2 = [ '#BBE67E' , '#212733' , 114 , 0   ] " guifg guibg ctermfg ctermbg
-let s:N3 = [ '#E6E1CF' , '#212733' , 15  , 0   ] " guifg guibg ctermfg ctermbg
+let s:N1 = [ '#707A8C' , '#BAE67E' , 66  , 150 ] " guifg guibg ctermfg ctermbg
+let s:N2 = [ '#BAE67E' , '#383E4C' , 150 , 59  ] " guifg guibg ctermfg ctermbg
+let s:N3 = [ '#CBCCC6' , '#1F2430' , 188 , 239 ] " guifg guibg ctermfg ctermbg
 
 " Insert mode
-let s:I1 = [ '#212733' , '#80D4FF' , 0   , 80  ] " guifg guibg ctermfg ctermbg
-let s:I2 = [ '#80D4FF' , '#212733' , 80  , 0   ] " guifg guibg ctermfg ctermbg
-let s:I3 = [ '#E6E1CF' , '#212733' , 15  , 0   ] " guifg guibg ctermfg ctermbg
+let s:I1 = [ '#707A8C' , '#5CCFE6' , 66  , 80  ] " guifg guibg ctermfg ctermbg
+let s:I2 = [ '#5CCFE6' , '#383E4C' , 80  , 59  ] " guifg guibg ctermfg ctermbg
+let s:I3 = [ '#CBCCC6' , '#1F2430' , 188 , 239 ] " guifg guibg ctermfg ctermbg
 
 " Visual mode
-let s:V1 = [ '#212733' , '#FFAE57' , 0   , 173 ] " guifg guibg ctermfg ctermbg
-let s:V2 = [ '#FFAE57' , '#212733' , 173 , 0   ] " guifg guibg ctermfg ctermbg
-let s:V3 = [ '#E6E1CF' , '#212733' , 15  , 0   ] " guifg guibg ctermfg ctermbg
+let s:V1 = [ '#707A8C' , '#FFA759' , 66  , 215 ] " guifg guibg ctermfg ctermbg
+let s:V2 = [ '#FFA759' , '#383E4C' , 215 , 59  ] " guifg guibg ctermfg ctermbg
+let s:V3 = [ '#CBCCC6' , '#1F2430' , 188 , 239 ] " guifg guibg ctermfg ctermbg
 
 " Replace mode
-let s:RE = [ '#212733' , '#F07178' , 0   , 167 ] " guifg guibg ctermfg ctermbg
+let s:RE = [ '#707A8C' , '#FF3333' , 66  , 203 ] " guifg guibg ctermfg ctermbg
 
 let g:airline#themes#ayu_mirage#palette = {}
 
